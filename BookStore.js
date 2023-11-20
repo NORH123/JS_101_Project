@@ -106,3 +106,49 @@ function displayBooks() {
   
   sellBooks("Clean Code: A Handbook of Agile", 3, 400.0);
   console.log(displayBooks());
+
+  //output screenshot:
+  /*
+  Book 'The Learn Startup' has been added.
+Book Id Title                   Author                  Price   Quantity
+---------------------------------------------------------------
+1       Start with why  Simon Sinek             80      13
+2       But how do it know      J. Clark Scott          59.9    22
+3       Clean Code      Robert Cecil Martin             50      5
+4       Zero to One     Peter Thiel             45      12
+5       You don't know JS       Kyle Simpson            39.9    9
+6       The Learn Startup       Eric Ries               35      10
+---------------------------------------------------------------
+undefined
+Book 'Clean Code: A Handbook of Agile' has been updated.
+Book Id Title                   Author                  Price   Quantity
+---------------------------------------------------------------
+1       Start with why  Simon Sinek             80      13
+2       But how do it know      J. Clark Scott          59.9    22
+3       Clean Code: A Handbook of Agile Robert          55      8
+4       Zero to One     Peter Thiel             45      12
+5       You don't know JS       Kyle Simpson            39.9    9
+6       The Learn Startup       Eric Ries               35      10
+---------------------------------------------------------------
+undefined
+Book 'But how do it know' has been deleted.
+Book Id Title                   Author                  Price   Quantity
+---------------------------------------------------------------
+1       Start with why  Simon Sinek             80      13
+3       Clean Code: A Handbook of Agile Robert          55      8
+4       Zero to One     Peter Thiel             45      12
+5       You don't know JS       Kyle Simpson            39.9    9
+6       The Learn Startup       Eric Ries               35      10
+---------------------------------------------------------------
+undefined
+[]
+Book 'Clean Code: A Handbook of Agile' (3x) sold successfully. Total price: $165
+Book Id Title                   Author                  Price   Quantity
+---------------------------------------------------------------
+1       Start with why  Simon Sinek             80      13
+3       Clean Code: A Handbook of Agile Robert          55      5
+4       Zero to One     Peter Thiel             45      12
+5       You don't know JS       Kyle Simpson            39.9    9
+6       The Learn Startup       Eric Ries               35      10
+---------------------------------------------------------------
+  */
